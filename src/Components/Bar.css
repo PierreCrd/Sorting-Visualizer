@@ -1,0 +1,81 @@
+.array-container{
+	display:flex;
+	margin: 0 20vw;
+
+
+}
+.array-bar{
+   width:280px;
+   background-color:rgba(116, 208, 241,0.8);
+   margin:0px 1px;
+   border-radius: 0 0 6px 6px;
+   animation-name: animate-bar;
+   animation-duration: 2s;
+   cursor: pointer;
+}
+
+@keyframes animate-bar{
+   from {
+      height: 2px;
+      background-color:rgba(50, 230, 150,0.8);
+   }
+}
+
+.array-bar:hover {
+   background-color: rgba(96, 188, 221,0.8);
+}
+
+.array-bar:active{
+   background-color: rgba(50, 230, 150,0.8);
+}
+
+
+.button-sort{
+	color: rgb(245,245,245);
+	background-color: rgb(40,70,90);
+	border-color: rgb(0,0,0);
+   border-radius: 0 0 0px 8px;
+   transition-duration: 0.25s;
+}
+
+.button-sort:hover{
+   border-color: rgb(0,0,0);
+   background-color:rgb(10,50,80); 
+}
+
+.button-sort:focus{
+   background-color: rgb(30,150,110);
+   border-color: rgb(0,0,0);
+   box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.85);
+} 
+
+.button-generate{
+   color: rgb(245,245,245);
+   background-color: rgb(40,70,90);
+   border-color: rgb(0,0,0);
+   border-radius: 0 0 0px 8px;
+   transition-duration: 0.25s;
+}
+
+.button-generate:hover{
+   border-color: rgb(0,0,0);
+   background-color:rgb(10,50,80); 
+}
+
+.button-generate:focus {
+   background-color: rgb(40,70,90);
+   border-color: rgb(0,0,0);
+   box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.85)
+}
+
+.button-color-2{
+   color: rgb(245,245,245);
+   background-color: #2BBBAD;
+   border-color: rgb(0,0,0);
+   border-radius: 0 0 8px 0px;
+}
+
+.style-btn-group{
+   display:flex;
+   margin: 0 15vw;
+}
